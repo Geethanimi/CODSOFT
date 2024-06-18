@@ -1,1 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Shop Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="logo" id="logo" style="float: left;">    
+            <a href="#home">
+                <img src="images/fruits-logo.jpg" id="header-img" width="250">
+            </a>
+        </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="#home" class="nav-link">HOME</a></li>
+                    <li><a href="#about" class="nav-link">ABOUT</a></li>
+                    <li><a href="#varieties" class="nav-link">VARIETIES</a></li>
+                    <li><a href="#our-services" class="nav-link">OUR SERVICE</a></li>
+                    <li><a href="#benefits" class="nav-link">BENEFITS</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section id="home" class="home-sec">
+            <div class="eye-grabber-img">
+                <img src="images/fruits_home.png" id="fruits_home">
+            </div>
+            <div class="eye-grabber">
+                <h1>Fresh, Crispy, <br>Heavenly.</h1>
+                <br>
+                <h2>
+                    100% Organic,vivid varieties of fruits.<br>Freshness in every peice.<br> Eat right and live strong.
+                </h2>
+                <br>
+                <button class="btn" onclick="window.location.href='#contact';">
+                    Buy Now
+                </button>
+            </div>
+        </section>
+        <section id="about" class="about-sec">
+            <h2>ABOUT US</h2>
+            <div class="about-content">
+                <p>Welcome to Fruits House, where we blend freshness with flavor. Since 2018, we've been passionate about offering the finest selection of fruits sourced directly from local farms and trusted suppliers. Each fruit is handpicked to ensure optimal ripeness and taste, whether you're seeking everyday favorites or exploring exotic varieties. Our friendly team is commited to helping you find the perfect fruit for any occasion. Beyond quality produce, we prioritize building lasting connections with our customers. Visit Fruits House today and discover the difference freshness makes!</p>
+                <img src="images/harvest.jpeg" id="harvesting">
+            </div>
+        </section>
+        <section id="varieties" class="varieties-sec">
+            <h2>VARIETIES</h2>
+            <div class="container">
+             <div class="tile">
+                <img src="images/orange.jpg">
+                <h3>Oranges</h3>
+                <p>
+                    Our oranges are favorites, renowned for their delicious taste and excellent nutritional value. We offer a wide variety of oranges for you.
+                </p>
+             </div>
+             <div class="tile"> 
+                <img src="images/apple.jpg" >
+                <h3>Apples</h3>
+                <p>
+                    Enjoy our crisp and nutritious apples directly packed from Kashmir, perfect for snacking or incorporating into desserts!
+                </p>
+             </div>
+             <div class="tile">
+                <img src="images/mango.jpg">
+                <h3>Mangos</h3>
+                <p>
+                    We offer a wide variety of mangoes, renowned for their exceptional taste and juicy sweetness, promising a delightful tropical experience.
+                </p>
+             </div>
+             <div class="tile">
+                <img src="images/pome.jpg">
+                <h3>Pomogranet</h3>
+                <p>
+                    Pomegranates are celebrated for their antioxidant-rich arils and refreshing sweetness, ideal for snacking or adding to dishes.
+                </p>
+             </div>
+             <div class="tile">
+                <img src="images/strawberries.jpg" >
+                <h3>strawberries</h3>
+                <p>
+                    Strawberries are cherished for their juicy sweetness and adaptability, perfect for desserts, smoothies, or simply enjoyed fresh as a delightful treat.
+                </p>
+             </div>
+             <div class="tile">
+                <img src="images/banana.jpg">
+                <h3>Bananas</h3>
+                <p>
+                    We offer a diverse range of bananas known for their creamy texture and high potassium content, perfect for snacking or blending into smooties.
+                </p>
+            </div>
+            </div>
+        </section>
+        <section id="our-services" class="service-sec"> 
+            <h3 class="ser-head">OUR SERVICE</h3>
+            <div class="ser-content">
+                <div class="bars">
+                    <div class="icon">
+                        <img src="images/fresh.png" id="fsh">
+                    </div>
+                    <div class="txt">
+                        <h5>Fresh</h5>
+                        <p>
+                            We deliver fresh fruits with 100% guarantee of freshness.
+                        </p>
+                    </div>
+                </div>
+                <div class="bars">
+                    <div class="icon">
+                        <img src="images/fast-delivery.png" id="fst">
+                    </div>
+                    <div class="txt">
+                        <h5>Fast</h5>
+                        <p> 
+                            We deliver your orders as fast as possible, delivery procedure begins as soon as fruits are plucked from tree. 
+                        </p>
+                    </div>
+                </div>
+                <div class="bars">
+                    <div class="icon">
+                        <img src="images/reputation.png" id="sat">
+                    </div>
+                    <div class="txt">
+                        <h5>Satisfying</h5>
+                        <p>
+                            We guarantee 100% customer satisfaction. We do our best to make your purchase experience smooth. But if we mess up somehow you will get compensated for every inconvenience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="benefits" class="benefits-sec">
+            <h3>BENEFITS</h3>
+            <div class="benefits">
+                <iframe width="670" height="377" src="https://www.youtube.com/embed/19OuPQBwQ-Q" title="Discover the Sweet Benefits of Eating Fruit #fruit #facts #yourhealth #healthyliving #healthyeating" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="contact-sec" id="contact">
+            <h3>CONTACT</h3>
+            <div class="contact">
+                <h6>To make order or just to know more contact us:</h6>
+                <form  id="form" method="POST">
+                    <input type="email" name="email" id="email" placeholder="Your Email Address" required/>
+                    <input type="
+                    submit" class="button" id="submit" value="know More"/>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; Created by
+        <a href="#">Geetha</a>
+    </footer>
 
+    
+</body>
+</html>
